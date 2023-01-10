@@ -5,13 +5,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pathwaymd/gearpipe.git"
+    "url": "https://github.com/christophemarois/gearpipe.git"
   },
   "bugs": {
-    "url": "https://github.com/pathwaymd/gearpipe/issues"
+    "url": "https://github.com/christophemarois/gearpipe/issues"
   },
-  "homepage": "https://github.com/pathwaymd/gearpipe#readme",
-  "author": "Pathway Medical Inc <christophe@pathway.md>",
+  "homepage": "https://github.com/christophemarois/gearpipe#readme",
+  "author": "Christophe Marois <christophe@pathway.md>",
   "keywords": [
     "async",
     "promise",
@@ -27,6 +27,7 @@
   "scripts": {
     "build": "tsup",
     "prepare": "husky install",
+    "publish": "np",
     "test": "vitest run"
   },
   "lint-staged": {
@@ -43,6 +44,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "modern-async": "^1.1.2",
+    "np": "^7.6.3",
     "prettier": "^2.8.2",
     "tsup": "^6.5.0",
     "vitest": "^0.27.0"
