@@ -1,0 +1,50 @@
+{
+  "name": "gearpipe",
+  "version": "0.1.0",
+  "description": "Async/sync pipelines with sync typings",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathwaymd/gearpipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pathwaymd/gearpipe/issues"
+  },
+  "homepage": "https://github.com/pathwaymd/gearpipe#readme",
+  "author": "Pathway Medical Inc <christophe@pathway.md>",
+  "keywords": [
+    "async",
+    "promise",
+    "functional programming"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "husky install",
+    "test": "vitest run"
+  },
+  "lint-staged": {
+    "package.json": [
+      "format-package -w"
+    ],
+    "**/*.(md|ts|tsx|js|jsx)": [
+      "prettier --write"
+    ]
+  },
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "format-package": "^7.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "modern-async": "^1.1.2",
+    "prettier": "^2.8.2",
+    "tsup": "^6.5.0",
+    "vitest": "^0.27.0"
+  }
+}
