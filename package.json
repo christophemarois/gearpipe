@@ -1,6 +1,6 @@
 {
   "name": "gearpipe",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Async/sync pipelines with sync typings",
   "license": "MIT",
   "repository": {
