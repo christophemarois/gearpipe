@@ -1,6 +1,6 @@
 # ⚙️ Gearpipe
 
-![npm](https://img.shields.io/npm/v/gearpipe?style=flat-square) ![bundlephobia](https://img.shields.io/bundlephobia/minzip/gearpipe?style=flat-square)
+[![npm](https://img.shields.io/npm/v/gearpipe?style=flat-square)](https://www.npmjs.com/package/gearpipe) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/gearpipe?style=flat-square)](https://bundlephobia.com/package/gearpipe)
 
 Gearpipe is a TS/JS utility that allows you to write **sync and async** functional pipelines in a very readable manner, similar to the [ES Pipeline Operator Proposal](https://github.com/tc39/proposal-pipeline-operator).
 
