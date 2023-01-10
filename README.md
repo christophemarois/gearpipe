@@ -8,7 +8,7 @@ Install `gearpipe` from npm
 
 ### Features
 
-- Tiny (403B), universal build, no dependencies.
+- Tiny universal build with no dependencies.
 - Async or sync pipelines with **correct type inference**. Even if pipeline is async, type inference considers it as sync for better DX.
 - Composable and lazy-executing.
 - Pairs well with sync/async toolbelts like lodash, rambda, modern-async, etc.
